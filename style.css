@@ -1,6 +1,118 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("assets/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: "OpenSans Italic";
+    src: url("assets/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+  }
+
+body {
+    margin: 0px;
+    padding:0px;
+    font-family: OpenSans, 'Times New Roman', Arial, Helvetica, sans-serif;
+} 
+
+
+#navmenu {
+   }
+
+#navmenu a h2 {
+    font-size: 1.2em;
+}
+
+#navmenu a:link {
+    color: #f6fafe;
+    text-decoration: none;
+}
+
+#navmenu a:hover {
+    text-decoration: underline;
+}
+
+#navmenu a:visited {
+    color: #f6fafe;
+    text-decoration: none;
+}
+
+
+.navbar {
+    /*background-image: linear-gradient(to right, #59a956, #387687 );*/
+    background-image: linear-gradient(to right,#387687, #59a956);
+    
+}
+
+
+#main {
+    margin-top: 5em;
+}
+
+#right {
+    background-image: linear-gradient(#59a956, #387687);
+}
+
 #profile-pic {
     border-radius:50%;
     max-width:80%;
     height: auto;
     margin-bottom: 2em;
+}
+
+#profile a:link {
+    color: #387686;
+    text-decoration: none;
+}
+
+#profile a:hover {
+    color: #387686;
+    text-decoration: underline;
+}
+
+#profile a:visited {
+    color: #387686;
+    text-decoration: none;
+}
+
+#resume {
+    margin-left: 3em;
+}
+
+#aboutme-pic {
+    border-radius:50%;
+    max-width:80%;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+#main-aboutme {
+    margin-top: 5em;
+}
+
+#footer {
+    padding: .5em;
+    margin-top: 2em;
+}
+
+
+#footer a h6 {
+    padding-bottom: .1em;
+    padding-top: .1em;
+}
+#footer a h2 {
+    font-size: 1em;
+}
+
+#footer a:link {
+    color: #f6fafe;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer a:visited {
+    color: #f6fafe;
+    text-decoration: none;
 }
