@@ -8,15 +8,13 @@
     src: url("assets/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
   }
 
-body {
+.container-fluid {
     margin: 0px;
     padding:0px;
+    height: 100%;
     font-family: OpenSans, 'Times New Roman', Arial, Helvetica, sans-serif;
 } 
 
-
-#navmenu {
-   }
 
 #navmenu a h2 {
     font-size: 1.2em;
@@ -39,10 +37,9 @@ body {
 
 .navbar {
     /*background-image: linear-gradient(to right, #59a956, #387687 );*/
-    background-image: linear-gradient(to right,#387687, #59a956);
-    
+    background-image: linear-gradient(to right,#387687, #59a956); 
+    box-shadow: 0px 2px 10px grey; 
 }
-
 
 #main {
     margin-top: 5em;
@@ -50,6 +47,26 @@ body {
 
 #right {
     background-image: linear-gradient(#59a956, #387687);
+}
+
+.jobs .col-4 p {
+    font-weight: bold;
+}
+
+.summary {
+    margin-bottom: .1em;
+}
+
+.summary-row {
+    margin-bottom: 1.5em;
+}
+
+tr {
+    margin-bottom: .1em;
+}
+
+.skills {
+    margin-left: 1.5em;
 }
 
 #profile-pic {
@@ -83,12 +100,34 @@ body {
     max-width:80%;
     height: auto;
     margin-bottom: 2em;
+    margin-left: 2em;
 }
 
 #main-aboutme {
+    margin-top: 7em;
+}
+
+#card-main {
     margin-top: 5em;
 }
 
+.card {
+    margin-bottom: 2em;
+}
+
+.card-header{
+    color: #f6fafe;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #59a956, #478d71);
+}
+
+.btn {
+    background-color: #478d71;
+}
+
+.btn:hover {
+    background-color:#54a45b; 
+}
 #footer {
     padding: .5em;
     margin-top: 2em;
